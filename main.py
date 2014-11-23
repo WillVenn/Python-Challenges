@@ -19,7 +19,8 @@ def chosendropdown(self): #Functions for selecting the challenge
 
 	else:
 		##print (Dropdown)
-		subprocess.call(['python', 'ERROR.py'])
+		
+subprocess.call(['python','Extra/ERROR.py'])
 		##subprocess.call(["python3", "chll1.py"])
 		##print ("Should have launched...")
 
@@ -27,7 +28,7 @@ def chosendropdown(self): #Functions for selecting the challenge
 def about(): #Function for opening my About app
 	print ("About was clicked")
 	print ("Launching about app")
-	subprocess.call(['python', 'about.py'])
+	subprocess.call(['python', 'Extra/about.py'])
 
 
 
