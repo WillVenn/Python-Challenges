@@ -69,7 +69,7 @@ Dropdown.pack()
 #----------------------------------------------
 
 testvar = "Challenge_1" #Random test variables
-print (testvar)
+print (testvar) #prints my test variable 
 #----------------------------------------------
 
 
